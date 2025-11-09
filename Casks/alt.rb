@@ -1,8 +1,8 @@
 cask "alt" do
-  version "0.0.14"
-  sha256 "d8b9b1ca11db33a93fc3918dd7ad645e4b40186d481b8be8560b85e3995a2aae" # 첫 릴리스 후 실제 SHA256으로 교체됩니다
+  version "0.0.15"
+  sha256 "b4bc074ee953279d7dd27fc907b4dd7f303c044bf87d15a2855d7b12ccc26fcd" # 첫 릴리스 후 실제 SHA256으로 교체됩니다
 
-  url "https://altalt-dev.s3.ap-northeast-2.amazonaws.com/alt/darwin/arm64/Alt-0.0.14-arm64.dmg", # 첫 릴리스 후 실제 다운로드 URL로 교체됩니다
+  url "https://d31j0e9r0hmts6.cloudfront.net/Alt-0.0.15-arm64.dmg", # 첫 릴리스 후 실제 다운로드 URL로 교체됩니다
       verified: "altalt-dev.s3.ap-northeast-2.amazonaws.com"
   name "Alt"
   desc "Desktop application for AI-powered lecture note taking and management"
